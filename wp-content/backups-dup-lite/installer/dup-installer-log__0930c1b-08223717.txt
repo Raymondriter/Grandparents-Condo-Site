@@ -1,0 +1,670 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:00:36
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.13                                |8.0.7
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-06-08 22:37:17
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 1.4.0
+DB__________________: 8.0.22
+DB TABLES___________: 21
+DB ROWS_____________: 3,182
+DB FILE SIZE________: 19.25MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 8.0.7 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.7
+DOC ROOT____________: "C:/xampp/htdocs"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/20210427_brigadune7c_[HASH]_20210608223717_archive.zip"
+SIZE________________: 139.62MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/20210427_brigadune7c_[HASH]_20210608223717_archive.zip"
+SIZE________________: 139.62MBFile timestamp set to Current: 2021-06-14 04:01:08
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 04:01:08 - RUNTIME: 32.1585 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:02:32
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.19 -- Build Server: 8.0.22
+FILE SIZE:	dup-database__[HASH].sql (13.97MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	3399
+
+wp_commentmeta: (0)
+wp_comments: (4)
+wp_duplicator_packages: (0)
+wp_frm_fields: (38)
+wp_frm_forms: (6)
+wp_frm_item_metas: (6)
+wp_frm_items: (2)
+wp_links: (0)
+wp_mphb_sync_logs: (0)
+wp_mphb_sync_queue: (0)
+wp_mphb_sync_stats: (0)
+wp_mphb_sync_urls: (0)
+wp_options: (245)
+wp_postmeta: (2619)
+wp_posts: (233)
+wp_term_relationships: (89)
+wp_term_taxonomy: (28)
+wp_termmeta: (0)
+wp_terms: (28)
+wp_usermeta: (40)
+wp_users: (2)
+Removed '35' cache/transient rows
+
+INSERT DATA RUNTIME: 1.3068 sec.
+STEP-2 COMPLETE @ 04:02:34 - RUNTIME: 1.3136 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:02:45
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Brigadune 7C"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/opt/bitnami/apps/wordpress/htdocs"
+path_new______________: "C:/xampp/htdocs"
+siteurl_______________: "http://localhost"
+url_old_______________: "http://brigadune7c.com"
+url_new_______________: "http://localhost"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frm_fields"___________________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_frm_forms"____________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_frm_item_metas"_______________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_frm_items"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_sync_logs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_sync_queue"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_sync_stats"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_sync_urls"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   245][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2619][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   233][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    89][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/opt/bitnami/apps/wordpress/htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  2:"\/opt\/bitnami\/apps\/wordpress\/htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  3:"%2Fopt%2Fbitnami%2Fapps%2Fwordpress%2Fhtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  4:"\opt\bitnami\apps\wordpress\htdocs" ==============> "C:/xampp/htdocs"
+	SEARCH  5:"\\opt\\bitnami\\apps\\wordpress\\htdocs" =========> "C:\/xampp\/htdocs"
+	SEARCH  6:"%5Copt%5Cbitnami%5Capps%5Cwordpress%5Chtdocs" ====> "C%3A%2Fxampp%2Fhtdocs"
+	SEARCH  7:"//brigadune7c.com" ===============================> "//localhost"
+	SEARCH  8:"\/\/brigadune7c.com" =============================> "\/\/localhost"
+	SEARCH  9:"%2F%2Fbrigadune7c.com" ===========================> "%2F%2Flocalhost"
+	SEARCH 10:"//www.brigadune7c.com" ===========================> "//localhost"
+	SEARCH 11:"\/\/www.brigadune7c.com" =========================> "\/\/localhost"
+	SEARCH 12:"%2F%2Fwww.brigadune7c.com" =======================> "%2F%2Flocalhost"
+	SEARCH 13:"https://localhost" ===============================> "http://localhost"
+	SEARCH 14:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 15:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 16:"//' . $_SERVER['HTTP_HOST'] . '" =================> "//localhost"
+	SEARCH 17:"\/\/' . $_SERVER['HTTP_HOST'] . '" ===============> "\/\/localhost"
+	SEARCH 18:"%2F%2F%27+.+%24_SERVER%5B%27HTTP_HOST%27%5D+.+%27" => "%2F%2Flocalhost"
+	SEARCH 19:"https://localhost" ===============================> "http://localhost"
+	SEARCH 20:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 21:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+	SEARCH 22:"//127.0.0.1/wordpress" ===========================> "//localhost"
+	SEARCH 23:"\/\/127.0.0.1\/wordpress" ========================> "\/\/localhost"
+	SEARCH 24:"%2F%2F127.0.0.1%2Fwordpress" =====================> "%2F%2Flocalhost"
+	SEARCH 25:"https://localhost" ===============================> "http://localhost"
+	SEARCH 26:"https:\/\/localhost" =============================> "http:\/\/localhost"
+	SEARCH 27:"https%3A%2F%2Flocalhost" =========================> "http%3A%2F%2Flocalhost"
+--------------------------------------
+SCANNED:	Tables:21 	|	 Rows:3340 	|	 Cells:18186 
+UPDATED:	Tables:2 	|	 Rows:7 	|	 Cells:7 
+ERRORS:		0 
+RUNTIME:	0.314500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost"
+	UPDATE WP_SITEURL "http://localhost"
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME, WP_TEMP_DIR].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 04:02:46 - RUNTIME: 0.4386 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME, WP_TEMP_DIR].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
